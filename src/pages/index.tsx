@@ -4,6 +4,8 @@ type Props = {
   title: string
 }
 
+const sddd = 'ss'
+
 export default function Home({ title = 'Boilerplate NextJs' }: Props) {
   return (
     <div>
