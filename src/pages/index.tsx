@@ -4,16 +4,16 @@ type Props = {
   title: string
 }
 
-const foo= "blças"
-
-export default function Home({title="Boilerplate NextJs"}:Props) {
+export default function Home({ title = 'Boilerplate NextJs' }: Props) {
   return (
     <div>
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main><h1>{title}</h1></main>
+      <main>
+        <h1>{title}</h1>
+      </main>
     </div>
   )
 }
